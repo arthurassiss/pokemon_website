@@ -1,0 +1,20 @@
+.logoPokemon {
+	width: 15rem;
+	height: auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.homePage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #16141b;
+	padding: 0 10rem 1rem 10rem;
+}
+.homePokemons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+}

@@ -1,0 +1,88 @@
+.card {
+	background-color: #1f1e1e;
+	color: #d2d2d2;
+	width: 15rem;
+	height: 25rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.7rem;
+	border-radius: 0.75rem;
+	border: #72b773;
+	border-width: 0.1rem;
+	border-style: solid;
+	transition: all 0.5s;
+	position: relative;
+	&:hover {
+		transition: all 0.5s;
+		transform: translateY(-1rem);
+		color: #72b773;
+		cursor: grab;
+	}
+	text-decoration: none;
+}
+
+.cardPhotoDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	text-align: center;
+	height: 10rem;
+	background-size: cover;
+	border-style: solid;
+	border-radius: 100%;
+	background-color: #58565621;
+	background: linear-gradient(#535353, #2a2a2a);
+}
+.cardPhoto {
+	width: 55%;
+	height: auto;
+	justify-content: center;
+}
+
+.name {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+.atributes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 3rem;
+}
+.weightDiv {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	align-items: center;
+}
+.weight {
+	color: #6b6b6b;
+}
+.heightDiv {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	align-items: center;
+}
+.height {
+	color: #6b6b6b;
+}
+.statsDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 0.5rem;
+}
+.stats {
+	text-align: center;
+	color: #6b6b6b;
+}
+.span {
+	color: #d2d2d2;
+	font-size: 1rem;
+}
