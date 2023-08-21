@@ -3,3 +3,19 @@
 	flex-direction: column;
 	gap: 0.5rem;
 }
+@media (max-width: 1600px) {
+	.section {
+		width: 95%;
+	}
+}
+@media (max-width: 900px) {
+	.section {
+		width: 95%;
+	}
+}
+@media (max-width: 700px) {
+	.section {
+		width: 95%;
+		gap: 2rem;
+	}
+}
